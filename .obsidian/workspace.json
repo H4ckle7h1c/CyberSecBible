@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "bcfa6f3de345df9e",
+    "type": "split",
+    "children": [
+      {
+        "id": "80a0167bf1e96f1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af89e7a97b6fa8a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0327aabe5d5f0448",
+    "type": "split",
+    "children": [
+      {
+        "id": "71aeaec23b55ff86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fcc27702659ab278",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e10a63285a33b635",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e4446399d066e9aa",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9fc8a6ea8a7c53b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "146a194da16c160f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2cfdeea296e507f5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f1cb0b6b9d821c17",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "89c178af12228f04",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b47e521754512ed4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "fcc27702659ab278",
+  "lastOpenFiles": [
+    "WriteUps/Untitled.md",
+    "Cybersecurity Manual/Ressources/Pasted image 20221106223959.png",
+    "TryHackMe/Pickle Rick/Screens/Pasted image 20221105231822.png",
+    "Cybersecurity Manual/Ressources/ReverseShell.png",
+    "Cybersecurity Manual/Offensive Security - Red Team/Shells.md",
+    "Cybersecurity Manual/Offensive Security - Red Team/Windows fundamental.md",
+    "TryHackMe/OWASP Juice Shop/Screens/Pasted image 20221103093214.png",
+    "TryHackMe/OWASP Juice Shop/OWASP Juice Shop.md",
+    "Cybersecurity Manual/Offensive Security - Red Team/WEB Hacking.md",
+    "Cybersecurity Manual/Offensive Security - Red Team/Password Cracking.md"
+  ]
+}

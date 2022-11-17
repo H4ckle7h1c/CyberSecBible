@@ -1,0 +1,4 @@
+```
+steghide info file
+```
+string 

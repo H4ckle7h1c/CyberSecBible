@@ -1,0 +1,92 @@
+- ## [WEB Hacking]
+	- BurpSuite : It is the industry reference for web security assessment. Written in Java. 
+	- Features
+		- Proxy : proxy entre client et serveur 
+		- Repeater : forge and resend requests
+		- Intruder : fuzzer and bruteforce
+		- Decoder : encode / decode 
+		- Comparer : compare
+		- Sequencer : for token
+	- Install foxyproxy for good proxy management
+	- Configure HTTPS : 
+		- [http://burp/cert](http://burp/cert)
+		- in firefox -> about:preferences:
+
+- ## [Networking]
+	- NMAP
+	- Port states
+		- Open
+		- Closed
+		- Filtered
+		- Unfiltered
+		- Open|Filtered
+		- Closed|Filtered
+	- Ping
+		- PM : icmp mask
+		- PE : echo request
+		- PP : timestamp
+		- PS : tcp syn ping
+		- PA : ack ping
+		- PU : udp ping
+	- Common
+		- sn : pas de scan de port
+		- R : dns lookup
+		- s : no dns lookup
+		- ns : host discovery only
+	 - Flow control
+		- --min-parallelism
+		- --min-rate
+		- --max-rate
+		- T0
+	 - Scan types 
+		- Null Scan : pas de flag
+		- FIN Scan : fin flag
+		- Xmas Scan : fin ack urg
+		- Maimon Scan : ack urg
+		- ACK Scan : ack 
+		- Window Scan : 
+		- Custom Scan : 
+	- NSE
+		- safe : do not affect the target
+		- intrusive : affect the target
+		- vuln : scan for vulns
+		- exploit : attempt an exploit
+		- auth : try to bypass auth
+		- brute : attempt to bruteforce
+		- discovery : querry running service
+			```--script=<name> ``` 
+
+	- MASCAN
+
+- ## [Metasploit]
+	- Metasploit comes in two versions : 
+		- Metasploit Pro
+		- Metasploit Framework
+	- Main components :
+		- msfconsole : main cli interface 
+		- Modules : payload, exploit, scanner 
+		- Standalone tools like: msfvenom, pattern_create ...
+	- Modules
+		- Auxiliary
+			- Fuzzers
+			- Scanners 
+			- ...
+		- Encoders : encode the payload to evade signature checking
+		- Evasion : better suited for evasion than encoders
+		- Exploits : organized by target systems
+		- NOPs : to do nothing 
+		- Payloads
+			- Single : self-contained that do not need additionnal component to run.
+			- Stages : downloaded by stagers
+			- Stagers : responsible for setting up a connection between metasaploit and the target system to download the rest of the payload (stage)
+			- for Single separated by _  and staged by /
+		- Post : for post exploit
+	- Usefull commands
+		- setg : set global variable
+		- back : go back in module
+		- exploit -z : exploit and put the session in background
+
+## [Buffer Overflow ]
+- Immunity Debugger
+	- Mona script addon for immunity debugger
+- msf-pattern_create
